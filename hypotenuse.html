@@ -10,25 +10,23 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="navigation">
         <a href="./index.html">Is Triangle ?</a>
         <a href="./quiz.html">Quiz</a>
-        <a href="./hypotenuse.html">Hypotenuse</a>
-        <a href=""></a>
+        <a href="./hypotenuse.html" class="item-active">Hypotenuse</a>
+        <a href="./area.html">Area</a>
     </nav>
-    <h1 text="bold">Calculate Hypotenuse</h1>
-    <label>a =</label>
-    <input type="number" class="side-input" />
-    <label>b=</label>
-    <input type="number" class="side-input" />
-
-
-    <button id="hypotenuse-btn">Check Hypotenuse</button>
-    <div id="Output"></div>
-    <script src="./hypotenuse.js"></script>
-
-
-
+    <h1 class="heading">Calculate Hypotenuse</h1>
+    <h2 class="formula">Length of Hypotenuse = sqrt(a² + b²)</h2>
+    <div class="angle-container">
+        <div class="input-container">
+            <label>a =</label>
+            <input type="number" class="side-input" />
+            <label>b=</label>
+            <input type="number" class="side-input" />
+            <button id="hypotenuse-btn" class="btn">Check Hypotenuse</button>
+            <div id="Output"></div>
+            <script src="./hypotenuse.js"></script>
 </body>
 
 </html>

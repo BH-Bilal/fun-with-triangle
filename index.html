@@ -11,27 +11,30 @@
 </head>
 
 <body>
-    <nav>
-        <a href="./index.html">Is Triangle ?</a>
+    <nav class="navigation">
+        <a href="./index.html" class="item-active">Is Triangle ?</a>
         <a href="./quiz.html">Quiz</a>
         <a href="./hypotenuse.html">Hypotenuse</a>
-        <a href=""></a>
+        <a href="./area.html">Area</a>
     </nav>
-    <h1>Is it Triangle?</h1>
-    <!-- <input type="number" id="length" /> height 
-    <input type="mumber" id="base" /> base 
-    <br>
-    <button type="submit" onclick="area()">Checkn Area</button> -->
-    <label for="Angel1">Angel01</label>
-    <input type="number" class="angel-input" />
-    <label for="Angel2">Angel02</label>
-    <input type="number" class="angel-input" />
-    <label for="Angel3">Angel03</label>
-    <input type="number" class="angel-input" />
-    <button id="is-triangle-btn">Is Triangle?</button>
-    <div id="output"></div>
-    <script src="./index.js"></script>
-
+    <h1 class="heading">Is it Triangle?</h1>
+    <div class="angle-container">
+        <div class="input-container">
+            <label for="Angel1">Angel01</label>
+            <input type="number" class="angel-input" />
+        </div>
+        <div class="input-container">
+            <label for="Angel2">Angel02</label>
+            <input type="number" class="angel-input" />
+        </div>
+        <div class="input-container">
+            <label for="Angel3">Angel03</label>
+            <input type="number" class="angel-input" />
+        </div>
+        <button id="is-triangle-btn" class="btn">Is Triangle?</button>
+        <div id="output"></div>
+        <script src="./index.js"></script>
+    </div>
 </body>
 
 </html>
